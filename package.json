@@ -36,7 +36,7 @@
     "audit": "yarn audit --groups dependencies",
     "bump": "conventional-bump -p angular",
     "push": "git push && git push --tags --no-verify",
-    "prerelease": "yarn run rebuild",
+    "prepare": "yarn run rebuild",
     "preversion": "yarn run clean && yarn run test:all",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
