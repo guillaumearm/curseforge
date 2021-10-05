@@ -1,6 +1,6 @@
 {
   "name": "curseforge",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a Curserforge user-friendly API wrapper",
   "author": "Guillaume ARM <trapcodien@gmail.com>",
   "homepage": "https://github.com/guillaumearm/curseforge#readme",

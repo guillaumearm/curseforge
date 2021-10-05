@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/guillaumearm/curseforge/compare/v0.2.0...v0.2.1) (2021-10-05)
+
+
+### Bug Fixes
+
+* remove unused dependencies ([8e80843](https://github.com/guillaumearm/curseforge/commit/8e808433773122a25b65380c5c7c33f7ecc7d440))
+
+
+
 # [0.2.0](https://github.com/guillaumearm/curseforge/compare/v0.1.4...v0.2.0) (2021-10-05)
 
 
