@@ -1,0 +1,61 @@
+{
+  "name": "curseforge",
+  "version": "0.0.0",
+  "description": "a Curserforge user-friendly API wrapper",
+  "author": "Guillaume ARM <trapcodien@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "curseforge": "dist/curseforge-cli.js"
+  },
+  "scripts": {
+    "dev": "nodemon -w dist/ dist/curseforge-cli.js",
+    "start": "node dist/curseforge-cli.js",
+    "build": "echo Typescript compilation... && tsc",
+    "build:watch": "yarn run build --watch",
+    "rebuild": "yarn run clean && echo Typescript compilation... && tsc",
+    "build:check": "tsc --noEmit",
+    "check": "yarn run build:check && yarn run lint:all",
+    "recheck": "yarn run clean && yarn run check",
+    "clean": "rimraf dist build && echo Cleaned!",
+    "prettier": "prettier . --write",
+    "prettier:check": "prettier . --check",
+    "lint": "eslint . --max-warnings 0",
+    "lint:all": "yarn run lint && yarn run prettier:check",
+    "test": "NODE_ENV=test jest --verbose",
+    "test:watch": "yarn run test --watch",
+    "test:all": "yarn run build:check && yarn run lint:all && yarn run test",
+    "test:ci": "yarn run test:all",
+    "retest:all": "yarn run clean && yarn run test:all",
+    "audit": "yarn audit --groups dependencies",
+    "bump": "conventional-bump -p angular",
+    "push": "git push && git push --tags --no-verify",
+    "preversion": "yarn run test:all",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.1.1",
+    "@types/jest": "^27.0.1",
+    "@types/jest-in-case": "^1.0.2",
+    "@types/ramda": "^0.27.14",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "conventional-bump": "^1.0.6",
+    "conventional-changelog-cli": "^2.1.0",
+    "eslint": "^7.6.0",
+    "jest": "^27.1.0",
+    "jest-in-case": "^1.0.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "ramda": "^0.27.1",
+    "ramda-adjunct": "^2.27.0",
+    "rxjs": "^7.3.0"
+  }
+}
