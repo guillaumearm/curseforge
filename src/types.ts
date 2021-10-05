@@ -134,9 +134,9 @@ export type AddonInfo = {
   name: string;
   authors: AddonAuthorInfo[];
   attachments: AddonAttachmentInfo[];
-  issueTrackerUrl: string;
-  wikiUrl: string;
-  websiteUrl: string;
+  issueTrackerUrl?: string;
+  wikiUrl?: string;
+  websiteUrl?: string;
   gameId: number;
   summary: string;
   defaultFileId: number;
@@ -162,7 +162,7 @@ export type AddonInfo = {
   gamePopularityRank: number;
   primaryLanguage: string;
   gameSlug: string;
-  modLoaders: string[];
+  modLoaders?: string[];
   gameName: string;
   portalName: string;
   dateModified: string;
