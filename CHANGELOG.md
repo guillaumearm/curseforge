@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/guillaumearm/curseforge/compare/v0.1.3...v0.1.4) (2021-10-05)
+
+
+### Bug Fixes
+
+* **prepare:** add prepare script to package.json ([f9d0732](https://github.com/guillaumearm/curseforge/commit/f9d07327a63bc107b237412c604abd87cb55f856))
+
+
+
 ## [0.1.3](https://github.com/guillaumearm/curseforge/compare/v0.1.2...v0.1.3) (2021-10-05)
 
 
