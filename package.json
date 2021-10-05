@@ -3,6 +3,8 @@
   "version": "0.1.1",
   "description": "a Curserforge user-friendly API wrapper",
   "author": "Guillaume ARM <trapcodien@gmail.com>",
+  "homepage": "https://github.com/guillaumearm/curseforge#readme",
+  "bugs": "https://github.com/guillaumearm/curseforge/issues",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
