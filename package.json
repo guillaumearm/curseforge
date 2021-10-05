@@ -5,12 +5,16 @@
   "author": "Guillaume ARM <trapcodien@gmail.com>",
   "license": "MIT",
   "private": true,
-  "bin": {
-    "curseforge": "dist/curseforge-cli.js"
-  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "scripts": {
-    "dev": "nodemon -w dist/ dist/curseforge-cli.js",
-    "start": "node dist/curseforge-cli.js",
     "build": "echo Typescript compilation... && tsc",
     "build:watch": "yarn run build --watch",
     "rebuild": "yarn run clean && echo Typescript compilation... && tsc",
@@ -45,7 +49,6 @@
     "eslint": "^7.6.0",
     "jest": "^27.1.0",
     "jest-in-case": "^1.0.2",
-    "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.5",
@@ -53,6 +56,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
+    "axios": "^0.22.0",
     "inquirer": "^8.1.2",
     "ramda": "^0.27.1",
     "ramda-adjunct": "^2.27.0",
