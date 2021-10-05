@@ -1,6 +1,6 @@
 {
   "name": "curseforge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a Curserforge user-friendly API wrapper",
   "author": "Guillaume ARM <trapcodien@gmail.com>",
   "license": "MIT",
