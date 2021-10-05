@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/guillaumearm/curseforge/compare/v0.1.4...v0.2.0) (2021-10-05)
+
+
+### Features
+
+* **search:** add MinecraftModSearch and MinecraftModpackSearch ([5bc8b2d](https://github.com/guillaumearm/curseforge/commit/5bc8b2d712859078332a6fbe3b3ebeb935106a9c))
+
+
+
 ## [0.1.4](https://github.com/guillaumearm/curseforge/compare/v0.1.3...v0.1.4) (2021-10-05)
 
 
