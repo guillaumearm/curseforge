@@ -6,7 +6,7 @@ This is the non-official Javascript/Typescript bindings for the [Curseforge API]
 
 ### Full documentation
 
-[**Link to the latest documentation**](https://github.com/guillaumearm/curseforge/blob/master/docs/modules.md)
+[Link to the latest documentation](https://github.com/guillaumearm/curseforge/blob/master/docs/modules.md)
 
 ### Installation
 

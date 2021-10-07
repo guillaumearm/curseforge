@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[types.ts:49](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L49)
+[types.ts:49](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L49)
 
 ---
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-[types.ts:38](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L38)
+[types.ts:38](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L38)
 
 ---
 
@@ -97,7 +97,7 @@
 
 #### Defined in
 
-[types.ts:118](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L118)
+[types.ts:118](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L118)
 
 ---
 
@@ -118,7 +118,7 @@
 
 #### Defined in
 
-[types.ts:109](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L109)
+[types.ts:109](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L109)
 
 ---
 
@@ -172,7 +172,7 @@
 
 #### Defined in
 
-[types.ts:132](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L132)
+[types.ts:132](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L132)
 
 ---
 
@@ -227,7 +227,7 @@
 
 #### Defined in
 
-[types.ts:60](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L60)
+[types.ts:60](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L60)
 
 ---
 
@@ -252,7 +252,7 @@
 
 #### Defined in
 
-[types.ts:1](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L1)
+[types.ts:1](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L1)
 
 ---
 
@@ -272,7 +272,7 @@
 
 #### Defined in
 
-[types.ts:14](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L14)
+[types.ts:14](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L14)
 
 ---
 
@@ -300,7 +300,7 @@
 
 #### Defined in
 
-[types.ts:22](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/types.ts#L22)
+[types.ts:22](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/types.ts#L22)
 
 ## Functions
 
@@ -320,7 +320,7 @@
 
 #### Defined in
 
-[index.ts:72](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L72)
+[index.ts:72](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L72)
 
 ---
 
@@ -340,7 +340,7 @@
 
 #### Defined in
 
-[index.ts:68](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L68)
+[index.ts:68](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L68)
 
 ---
 
@@ -361,7 +361,7 @@
 
 #### Defined in
 
-[index.ts:38](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L38)
+[index.ts:38](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L38)
 
 ---
 
@@ -382,7 +382,7 @@
 
 #### Defined in
 
-[index.ts:49](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L49)
+[index.ts:49](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L49)
 
 ---
 
@@ -402,7 +402,7 @@
 
 #### Defined in
 
-[index.ts:34](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L34)
+[index.ts:34](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L34)
 
 ---
 
@@ -416,7 +416,7 @@
 
 #### Defined in
 
-[index.ts:30](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L30)
+[index.ts:30](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L30)
 
 ---
 
@@ -436,7 +436,7 @@
 
 #### Defined in
 
-[index.ts:64](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L64)
+[index.ts:64](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L64)
 
 ---
 
@@ -450,4 +450,4 @@
 
 #### Defined in
 
-[index.ts:60](https://github.com/guillaumearm/curseforge/blob/731d4a2/src/index.ts#L60)
+[index.ts:60](https://github.com/guillaumearm/curseforge/blob/d1c2de4/src/index.ts#L60)

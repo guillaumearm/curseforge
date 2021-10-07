@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "build:docs": "rimraf docs && typedoc --tsconfig tsconfig.json --out docs src/index.ts && prettier ./docs --write",
+    "build:docs": "yarn run prettier && rimraf docs && typedoc --tsconfig tsconfig.json --out docs src/index.ts && prettier ./docs --write",
     "build:all": "yarn run build && yarn run build:docs",
     "build:watch": "yarn run build --watch",
     "rebuild": "yarn run clean && yarn run build",
