@@ -1,6 +1,6 @@
 {
   "name": "curseforge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Non-official Javascript/Typescript bindings for the Curseforge API",
   "author": "Guillaume ARM <trapcodien@gmail.com>",
   "homepage": "https://github.com/guillaumearm/curseforge#readme",

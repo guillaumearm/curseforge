@@ -1,3 +1,7 @@
+## [1.0.1](https://github.com/guillaumearm/curseforge/compare/v1.0.0...v1.0.1) (2021-10-07)
+
+
+
 # [1.0.0](https://github.com/guillaumearm/curseforge/compare/v0.2.1...v1.0.0) (2021-10-07)
 
 
