@@ -1,3 +1,22 @@
+# [1.0.0](https://github.com/guillaumearm/curseforge/compare/v0.2.1...v1.0.0) (2021-10-07)
+
+
+### Code Refactoring
+
+* change imports to get better documentation ([f1ebf4c](https://github.com/guillaumearm/curseforge/commit/f1ebf4ca6322116368eca14fbf9983ed48fcba8f))
+
+
+### Reverts
+
+* Revert "docs: refactor ts type to interface" ([35bcc11](https://github.com/guillaumearm/curseforge/commit/35bcc11a6a7951e6a7772f88937055e81059f687))
+
+
+### BREAKING CHANGES
+
+* 
+
+
+
 ## [0.2.1](https://github.com/guillaumearm/curseforge/compare/v0.2.0...v0.2.1) (2021-10-05)
 
 
