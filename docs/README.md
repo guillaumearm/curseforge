@@ -4,9 +4,9 @@ curseforge / [Exports](modules.md)
 
 This is the non-official Javascript/Typescript bindings for the [Curseforge API](https://curseforgeapi.docs.apiary.io/)
 
-### Full documentation
-
 **Warning: This is WIP project, not all bindings are supported.**
+
+### Full documentation
 
 [**Link to the latest documentation**](https://github.com/guillaumearm/curseforge/blob/master/docs/modules.md)
 

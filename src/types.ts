@@ -1,4 +1,4 @@
-export type MinecraftVersionInfo = {
+export interface MinecraftVersionInfo {
   id: number;
   gameVersionId: number;
   versionString: string;
@@ -9,17 +9,17 @@ export type MinecraftVersionInfo = {
   gameVersionTypeId: number;
   gameVersionStatus: number;
   gameVersionTypeStatus: number;
-};
+}
 
-export type ModloaderBasicInfo = {
+export interface ModloaderBasicInfo {
   name: string;
   gameVersion: string;
   latest: boolean;
   recommended: boolean;
   dateModified: string;
-};
+}
 
-export type ModloaderInfo = {
+export interface ModloaderInfo {
   id: number;
   gameVersionId: number;
   minecraftGameVersionId: number;
@@ -33,9 +33,9 @@ export type ModloaderInfo = {
   recommended: boolean;
   approved: boolean;
   dateModified: string;
-};
+}
 
-export type AddonAuthorInfo = {
+export interface AddonAuthorInfo {
   name: string;
   url: string;
   projectId: number;
@@ -44,9 +44,9 @@ export type AddonAuthorInfo = {
   projectTitleTitle: 'Author';
   userId: number;
   twitchId: number;
-};
+}
 
-export type AddonAttachmentInfo = {
+export interface AddonAttachmentInfo {
   id: number;
   projectId: number;
   description: string;
@@ -55,9 +55,9 @@ export type AddonAttachmentInfo = {
   title: string;
   url: string;
   status: number;
-};
+}
 
-export type AddonLatestFileInfo = {
+export interface AddonLatestFileInfo {
   id: number;
   displayName: string;
   fileName: string;
@@ -104,18 +104,18 @@ export type AddonLatestFileInfo = {
   gameVersionFlavor: null | unknown; // TODO
   hashes: { algorithm: 1; value: 'fa2b42a52a1d1164749fa367dac981418733f69b' }[];
   downloadCount: number;
-};
+}
 
-export type AddonGameVersionLatestFile = {
+export interface AddonGameVersionLatestFile {
   gameVersion: string;
   projectFileId: number;
   projectFileName: string;
   fileType: number;
   gameVersionFlavor: null | unknown; // TODO
   gameVersionTypeId: number;
-};
+}
 
-export type AddonCategoryInfo = {
+export interface AddonCategoryInfo {
   categoryId: number;
   name: string;
   url: string;
@@ -127,9 +127,9 @@ export type AddonCategoryInfo = {
   gameId: number;
   slug: string;
   dateModified: string;
-};
+}
 
-export type AddonInfo = {
+export interface AddonInfo {
   id: number;
   name: string;
   authors: AddonAuthorInfo[];
@@ -170,4 +170,4 @@ export type AddonInfo = {
   dateReleased: string;
   isAvailable: boolean;
   isExperiemental: boolean;
-};
+}
