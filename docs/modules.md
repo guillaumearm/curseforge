@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[types.ts:49](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L49)
+[types.ts:49](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L49)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[types.ts:38](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L38)
+[types.ts:38](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L38)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[types.ts:118](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L118)
+[types.ts:118](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L118)
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 #### Defined in
 
-[types.ts:109](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L109)
+[types.ts:109](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L109)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[types.ts:132](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L132)
+[types.ts:132](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L132)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[types.ts:60](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L60)
+[types.ts:60](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L60)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-[types.ts:1](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L1)
+[types.ts:1](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L1)
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 #### Defined in
 
-[types.ts:14](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L14)
+[types.ts:14](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L14)
 
 ___
 
@@ -293,7 +293,7 @@ ___
 
 #### Defined in
 
-[types.ts:22](https://github.com/guillaumearm/curseforge/blob/07d9410/src/types.ts#L22)
+[types.ts:22](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L22)
 
 ## Variables
 
@@ -316,4 +316,4 @@ ___
 
 #### Defined in
 
-[index.ts:30](https://github.com/guillaumearm/curseforge/blob/07d9410/src/index.ts#L30)
+[index.ts:30](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/index.ts#L30)
