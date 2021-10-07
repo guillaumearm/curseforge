@@ -1,3 +1,5 @@
+curseforge / [Exports](modules.md)
+
 # Curserforge API bindings
 
 This is the non-official Javascript/Typescript bindings for the [Curseforge API](https://curseforgeapi.docs.apiary.io/)
