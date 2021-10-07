@@ -26,7 +26,7 @@ yarn add -D curseforge
 import * as curseforge from 'curseforge';
 import type { MinecraftVersionInfo } from 'curseforge';
 
-curseforge.api.MinecraftVersionInfo('1.16.5').then((mcInfo: MinecraftVersionInfo) => {
+curseforge.fetch.MinecraftVersionInfo('1.16.5').then((mcInfo: MinecraftVersionInfo) => {
   console.log('=>', mcInfo);
 });
 ```

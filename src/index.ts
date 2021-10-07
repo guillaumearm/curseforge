@@ -27,46 +27,50 @@ const SEARCH_BASE_PARAMS = {
   sort: 0,
 };
 
-const api = {
-  MinecraftVersionList: () => {
-    return curseforge<MinecraftVersionInfo[]>('/minecraft/version');
-  },
-  MinecraftVersionInfo: (mcVersion: string) => {
-    return curseforge<MinecraftVersionInfo>(`/minecraft/version/${mcVersion}`);
-  },
-  MinecraftModSearch: (gameVersion: string, searchFilter: string) => {
-    return curseforge<AddonInfo[]>('/addon/search', {
-      params: {
-        ...SEARCH_BASE_PARAMS,
-        gameVersion,
-        searchFilter,
-        sectionId: SECTIONS.MOD,
-      },
-    });
-  },
-  MinecraftModpackSearch: (gameVersion: string, searchFilter: string) => {
-    return curseforge<AddonInfo>('/addon/search', {
-      params: {
-        ...SEARCH_BASE_PARAMS,
-        gameVersion,
-        searchFilter,
-        sectionId: SECTIONS.MODPACK,
-      },
-    });
-  },
-  ModloaderList: () => {
-    return curseforge<ModloaderBasicInfo[]>('/minecraft/modloader');
-  },
-  ModloaderInfo: (loaderVersion: string) => {
-    return curseforge<ModloaderInfo>(`/minecraft/modloader/${loaderVersion}`);
-  },
-  AddonInfo: (addonId: string | number) => {
-    return curseforge<AddonInfo>(`/addon/${addonId}`);
-  },
-  AddonFilesInfo: (addonId: string | number) => {
-    return curseforge(`/addon/${addonId}/files`);
-  },
+export const fetchMinecraftVersionList = () => {
+  return curseforge<MinecraftVersionInfo[]>('/minecraft/version');
 };
 
-export { api };
+export const fetchMinecraftVersionInfo = (mcVersion: string) => {
+  return curseforge<MinecraftVersionInfo>(`/minecraft/version/${mcVersion}`);
+};
+
+export const fetchMinecraftModSearch = (gameVersion: string, searchFilter: string) => {
+  return curseforge<AddonInfo[]>('/addon/search', {
+    params: {
+      ...SEARCH_BASE_PARAMS,
+      gameVersion,
+      searchFilter,
+      sectionId: SECTIONS.MOD,
+    },
+  });
+};
+
+export const fetchMinecraftModpackSearch = (gameVersion: string, searchFilter: string) => {
+  return curseforge<AddonInfo>('/addon/search', {
+    params: {
+      ...SEARCH_BASE_PARAMS,
+      gameVersion,
+      searchFilter,
+      sectionId: SECTIONS.MODPACK,
+    },
+  });
+};
+
+export const fetchModloaderList = () => {
+  return curseforge<ModloaderBasicInfo[]>('/minecraft/modloader');
+};
+
+export const fetchModloaderInfo = (loaderVersion: string) => {
+  return curseforge<ModloaderInfo>(`/minecraft/modloader/${loaderVersion}`);
+};
+
+export const fetchAddonInfo = (addonId: string | number) => {
+  return curseforge<AddonInfo>(`/addon/${addonId}`);
+};
+
+export const fetchAddonFilesInfo = (addonId: string | number) => {
+  return curseforge(`/addon/${addonId}/files`);
+};
+
 export * from './types';

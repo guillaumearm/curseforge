@@ -16,9 +16,16 @@
 - [ModloaderBasicInfo](modules.md#modloaderbasicinfo)
 - [ModloaderInfo](modules.md#modloaderinfo)
 
-### Variables
+### Functions
 
-- [api](modules.md#api)
+- [fetchAddonFilesInfo](modules.md#fetchaddonfilesinfo)
+- [fetchAddonInfo](modules.md#fetchaddoninfo)
+- [fetchMinecraftModSearch](modules.md#fetchminecraftmodsearch)
+- [fetchMinecraftModpackSearch](modules.md#fetchminecraftmodpacksearch)
+- [fetchMinecraftVersionInfo](modules.md#fetchminecraftversioninfo)
+- [fetchMinecraftVersionList](modules.md#fetchminecraftversionlist)
+- [fetchModloaderInfo](modules.md#fetchmodloaderinfo)
+- [fetchModloaderList](modules.md#fetchmodloaderlist)
 
 ## Type aliases
 
@@ -41,7 +48,7 @@
 
 #### Defined in
 
-[types.ts:49](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L49)
+[types.ts:49](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L49)
 
 ___
 
@@ -64,7 +71,7 @@ ___
 
 #### Defined in
 
-[types.ts:38](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L38)
+[types.ts:38](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L38)
 
 ___
 
@@ -90,7 +97,7 @@ ___
 
 #### Defined in
 
-[types.ts:118](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L118)
+[types.ts:118](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L118)
 
 ___
 
@@ -111,7 +118,7 @@ ___
 
 #### Defined in
 
-[types.ts:109](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L109)
+[types.ts:109](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L109)
 
 ___
 
@@ -165,7 +172,7 @@ ___
 
 #### Defined in
 
-[types.ts:132](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L132)
+[types.ts:132](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L132)
 
 ___
 
@@ -220,7 +227,7 @@ ___
 
 #### Defined in
 
-[types.ts:60](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L60)
+[types.ts:60](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L60)
 
 ___
 
@@ -245,7 +252,7 @@ ___
 
 #### Defined in
 
-[types.ts:1](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L1)
+[types.ts:1](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L1)
 
 ___
 
@@ -265,7 +272,7 @@ ___
 
 #### Defined in
 
-[types.ts:14](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L14)
+[types.ts:14](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L14)
 
 ___
 
@@ -293,27 +300,154 @@ ___
 
 #### Defined in
 
-[types.ts:22](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/types.ts#L22)
+[types.ts:22](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/types.ts#L22)
 
-## Variables
+## Functions
 
-### api
+### fetchAddonFilesInfo
 
-• **api**: `Object`
+▸ `Const` **fetchAddonFilesInfo**(`addonId`): `Promise`<`unknown`\>
 
-#### Type declaration
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `AddonFilesInfo` | (`addonId`: `string` \| `number`) => `Promise`<`unknown`\> |
-| `AddonInfo` | (`addonId`: `string` \| `number`) => `Promise`<[`AddonInfo`](modules.md#addoninfo)\> |
-| `MinecraftModSearch` | (`gameVersion`: `string`, `searchFilter`: `string`) => `Promise`<[`AddonInfo`](modules.md#addoninfo)[]\> |
-| `MinecraftModpackSearch` | (`gameVersion`: `string`, `searchFilter`: `string`) => `Promise`<[`AddonInfo`](modules.md#addoninfo)\> |
-| `MinecraftVersionInfo` | (`mcVersion`: `string`) => `Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)\> |
-| `MinecraftVersionList` | () => `Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)[]\> |
-| `ModloaderInfo` | (`loaderVersion`: `string`) => `Promise`<[`ModloaderInfo`](modules.md#modloaderinfo)\> |
-| `ModloaderList` | () => `Promise`<[`ModloaderBasicInfo`](modules.md#modloaderbasicinfo)[]\> |
+| `addonId` | `string` \| `number` |
+
+#### Returns
+
+`Promise`<`unknown`\>
 
 #### Defined in
 
-[index.ts:30](https://github.com/guillaumearm/curseforge/blob/dd2de4f/src/index.ts#L30)
+[index.ts:72](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L72)
+
+___
+
+### fetchAddonInfo
+
+▸ `Const` **fetchAddonInfo**(`addonId`): `Promise`<[`AddonInfo`](modules.md#addoninfo)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `addonId` | `string` \| `number` |
+
+#### Returns
+
+`Promise`<[`AddonInfo`](modules.md#addoninfo)\>
+
+#### Defined in
+
+[index.ts:68](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L68)
+
+___
+
+### fetchMinecraftModSearch
+
+▸ `Const` **fetchMinecraftModSearch**(`gameVersion`, `searchFilter`): `Promise`<[`AddonInfo`](modules.md#addoninfo)[]\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `gameVersion` | `string` |
+| `searchFilter` | `string` |
+
+#### Returns
+
+`Promise`<[`AddonInfo`](modules.md#addoninfo)[]\>
+
+#### Defined in
+
+[index.ts:38](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L38)
+
+___
+
+### fetchMinecraftModpackSearch
+
+▸ `Const` **fetchMinecraftModpackSearch**(`gameVersion`, `searchFilter`): `Promise`<[`AddonInfo`](modules.md#addoninfo)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `gameVersion` | `string` |
+| `searchFilter` | `string` |
+
+#### Returns
+
+`Promise`<[`AddonInfo`](modules.md#addoninfo)\>
+
+#### Defined in
+
+[index.ts:49](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L49)
+
+___
+
+### fetchMinecraftVersionInfo
+
+▸ `Const` **fetchMinecraftVersionInfo**(`mcVersion`): `Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `mcVersion` | `string` |
+
+#### Returns
+
+`Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)\>
+
+#### Defined in
+
+[index.ts:34](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L34)
+
+___
+
+### fetchMinecraftVersionList
+
+▸ `Const` **fetchMinecraftVersionList**(): `Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)[]\>
+
+#### Returns
+
+`Promise`<[`MinecraftVersionInfo`](modules.md#minecraftversioninfo)[]\>
+
+#### Defined in
+
+[index.ts:30](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L30)
+
+___
+
+### fetchModloaderInfo
+
+▸ `Const` **fetchModloaderInfo**(`loaderVersion`): `Promise`<[`ModloaderInfo`](modules.md#modloaderinfo)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `loaderVersion` | `string` |
+
+#### Returns
+
+`Promise`<[`ModloaderInfo`](modules.md#modloaderinfo)\>
+
+#### Defined in
+
+[index.ts:64](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L64)
+
+___
+
+### fetchModloaderList
+
+▸ `Const` **fetchModloaderList**(): `Promise`<[`ModloaderBasicInfo`](modules.md#modloaderbasicinfo)[]\>
+
+#### Returns
+
+`Promise`<[`ModloaderBasicInfo`](modules.md#modloaderbasicinfo)[]\>
+
+#### Defined in
+
+[index.ts:60](https://github.com/guillaumearm/curseforge/blob/25d1a2c/src/index.ts#L60)
